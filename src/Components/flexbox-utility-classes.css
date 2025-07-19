@@ -1,0 +1,36 @@
+.djac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.djbac {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dcjac {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dcjbac {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.fulldjac {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fulldcjac {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

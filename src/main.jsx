@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css' 
+import "./Components/reset.css"
+import './index.css'
+import "./Components/flexbox-utility-classes.css"
 import App from './Components/App.jsx'
 
 createRoot(document.getElementById('root')).render(

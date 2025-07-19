@@ -1,7 +1,7 @@
-import E1 from "./Episode1/E1";
+import E5 from "./Episodes/E5";
 
 const App = () => {
-  return <E1/>;
+  return <E5/>;
 };
 
 export default App;
