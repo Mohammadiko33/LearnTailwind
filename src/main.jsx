@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import "./styles/reset.css"
 import './index.css'
 import "./styles/flexbox-utility-classes.css"
-import App from './Episodes/E11'
+import App from './Episodes/E12'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
