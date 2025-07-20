@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import "./Components/reset.css"
+import "./styles/reset.css"
 import './index.css'
-import "./Components/flexbox-utility-classes.css"
-import App from './Components/App.jsx'
+import "./styles/flexbox-utility-classes.css"
+import App from './Episodes/E8'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

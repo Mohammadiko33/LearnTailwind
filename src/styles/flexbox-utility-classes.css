@@ -20,14 +20,14 @@
   align-items: center;
   justify-content: space-between;
 }
-.fulldjac {
+/* .fullCenter {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.fulldcjac {
+.fullCenterColumn {
   height: 100vh;
   display: flex;
   flex-direction: column;

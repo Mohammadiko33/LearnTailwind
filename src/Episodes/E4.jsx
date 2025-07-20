@@ -2,7 +2,7 @@ import React from "react";
 
 const E1 = () => {
   return (
-    <div className="fulldcjac bg-gray-900">
+    <div className="fullCenter bg-gray-900">
       <h1 className="text-red-500 text-7xl">Lorem, ipsum.</h1>
       <h2 className="text-blue-400 text-6xl">Lorem ipsum dolor sit.</h2>
       <h3 className="text-green-500 text-5xl">
