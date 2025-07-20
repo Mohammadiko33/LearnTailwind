@@ -2,18 +2,20 @@
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      container: {
-        center: true,
-        padding: '.5rem',
-      },
-      spacing: {
-        "22": "5.5rem",
-        "sm": "6px",
-        "lg": "12px"
-      },
+    container: {
+      center: true,
+      padding: '.5rem',
     },
-
+    screens: {
+      "xs": "420px",
+      "sm": "576px",
+      "md": "768px",
+      "lg": "992px",
+      "xl": "1280px",
+      "2xl": "1400px",
+      "3xl": "1600px",
+    },
+    extend: {},
   },
   plugins: [],
 }
