@@ -6,4 +6,22 @@
   .btn {
     @apply inline-block px-4 py-2 rounded font-semibold shadow transition-colors duration-200 bg-blue-600 text-white cursor-pointer;
   }
+  .djac {
+    @apply flex justify-center items-center;
+  }
+  .djbac {
+    @apply flex justify-between items-center;
+  }
+  .dcjac {
+    @apply flex flex-col justify-center items-center;
+  }
+  .dcjbac {
+    @apply flex flex-col justify-between items-center;
+  }
+  .fullCenter {
+    @apply h-screen flex justify-center items-center;
+  }
+  .fullCenterCol {
+    @apply h-screen flex flex-col justify-center items-center;
+  }
 }
