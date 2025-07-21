@@ -24,4 +24,14 @@
   .fullCenterCol {
     @apply h-screen flex flex-col justify-center items-center;
   }
+
+  @font-face {
+    font-family: "IRANSansX";
+    src: url("../public/IRANSansX-Regular.woff");
+  }
+
+  @font-face {
+    font-family: "IRANYekanX";
+    src: url("../public/IRANYekanX-Regular.woff");
+  }
 }

@@ -596,6 +596,18 @@ video {
   justify-content: center;
 }
 
+@font-face {
+  font-family: "IRANSansX";
+
+  src: url("../public/IRANSansX-Regular.woff");
+}
+
+@font-face {
+  font-family: "IRANYekanX";
+
+  src: url("../public/IRANYekanX-Regular.woff");
+}
+
 .container {
   width: 100%;
   margin-right: auto;
@@ -935,11 +947,6 @@ video {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
 }
 
-.bg-blue-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity, 1));
-}
-
 .bg-cyan-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(34 211 238 / var(--tw-bg-opacity, 1));
@@ -1082,6 +1089,14 @@ video {
   padding-top: 0.75rem;
 }
 
+.font-irsansx {
+  font-family: IRANSansX;
+}
+
+.font-iryekanx {
+  font-family: IRANYekanX;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1109,11 +1124,6 @@ video {
 
 .text-7xl {
   font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-9xl {
-  font-size: 8rem;
   line-height: 1;
 }
 
